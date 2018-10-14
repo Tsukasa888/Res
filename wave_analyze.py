@@ -12,7 +12,7 @@ import matplotlib.style as ms
 def main():
     ms.use('seaborn-muted')
 
-    filename = "E:\\myapp\\sample.wav"
+    filename = "Sample.wav"
 
     y, sr = librosa.load(filename)
 
